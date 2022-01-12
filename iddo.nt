@@ -1,0 +1,1306 @@
+# baseURI: https://w3id.org/iddo
+# prefix: iddo
+
+_:Be367e1e6dcd4d7d00b5c4ec742a09aeb <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DeprecationExplanation> .
+_:Be367e1e6dcd4d7d00b5c4ec742a09aeb <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Be367e1e6dcd4d7d00b5c4ec742a09aeb <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Be367e1e6dcd4d7d00b5c4ec742a09aeb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B1907ceeb215f95239c3755b186185256 <https://schema.org/name> "Philipp Hagedorn" .
+_:B1907ceeb215f95239c3755b186185256 <https://schema.org/memberOf> _:B02fbfe51ad948fbdb8882e38550f4cce .
+_:B1907ceeb215f95239c3755b186185256 <https://schema.org/identifier> <https://orcid.org/0000-0002-6249-243X> .
+_:B1907ceeb215f95239c3755b186185256 <https://schema.org/email> <mailto:philipp.hagedorn-n6v@rub.de> .
+_:B1907ceeb215f95239c3755b186185256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "Physikalische Groesse"@de-DE .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA027" .
+<https://w3id.org/iddo#PhysicalQuantity> <https://w3id.org/iddo#code> "PA027"@de-DE .
+<https://w3id.org/iddo#PhysicalQuantity> <https://w3id.org/iddo#code> "PA027" .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (physikalische Groesse | Sprache)\nPhysikalische Groessen werden in Einheiten des Internationalen Einheitensystems (SI) angegeben\nnicht physikalische Groessen wie z. B. Text werden mit dem Wert \"ohne\" angegeben\ndies ist gleichbedeutend mit einem Mass in ISO 16739-1 und ISO 10303\nnur eine physikalische Groesse kann einem Merkmal zugeordnet werden. Dieses Attribut wird ver-wendet, um die Groesse in Klartext mit allen benoetigten ueberset-zungen bereitzustellen."@de-DE .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "Physical quantity" .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#PhysicalQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (physical quantity | language)\nPhysical quantities are expressed in International System (SI) units\nNon-physical quantities such as text are expressed with the value \"without\"\nThis is equivalent to a measure in ISO 16739-1 and ISO 10303\nOnly one physical quantity can be attached to a property. This attribute is used to provide the quantity in plain text with all the needed translations" .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2000/01/rdf-schema#label> "Boundary values list" .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#BoundaryValuesList> <https://w3id.org/iddo#code> "PA040"@de-DE .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair  (List of boundary intervals of possible values for the property, unit)" .
+<https://w3id.org/iddo#BoundaryValuesList> <https://w3id.org/iddo#code> "PA040" .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B803169dbbec2db05ca193313cc94dbd4 .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA040" .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar (Liste von Grenzwert-Intervallen moeglicher Werte fuer das Merkmal, Einheit)"@de-DE .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B43c2631152eb3df1399319aa61e1d1d8 .
+<https://w3id.org/iddo#BoundaryValuesList> <http://www.w3.org/2000/01/rdf-schema#label> "Grenzwertliste"@de-DE .
+_:B866c80b2dbc64ff2a0080de2615a5c08 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GroupsOfProperties> .
+_:B866c80b2dbc64ff2a0080de2615a5c08 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B866c80b2dbc64ff2a0080de2615a5c08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B31483983bf88ce1b6e2895de4a4a9623 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DeprecationExplanation> .
+_:B31483983bf88ce1b6e2895de4a4a9623 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B31483983bf88ce1b6e2895de4a4a9623 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B31483983bf88ce1b6e2895de4a4a9623 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "List of the globally unique identifier of the connected properties (attribute PA001); the value of one property is related to the values of the other ones. For example, a sound absorption coefficient is given for a specific frequency, in this case sound absorption and frequency are connected properties" .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ConnectedProperties> <https://w3id.org/iddo#code> "PA020" .
+<https://w3id.org/iddo#ConnectedProperties> <https://w3id.org/iddo#code> "PA020"@de-DE .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste der global eindeutigen Be-zeichner der verbundenen Merkmale (Attribut PA001); der Wert eines Merkmals steht zu den Werten der anderen in einer Beziehung. Beispielsweise ist ein Schallabsorptionsgrad fuer eine bestimmte Frequenz gegeben, in diesem Fall sind Schallabsorp-tionsgrad und Frequenz ver-bundene Merkmale."@de-DE .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Verbundene Merkmale"@de-DE .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Connected properties" .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA020" .
+<https://w3id.org/iddo#ConnectedProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:B074f9a05a8b118b7e980d2e3570ec87e <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B074f9a05a8b118b7e980d2e3570ec87e <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DynamicProperty> .
+_:B074f9a05a8b118b7e980d2e3570ec87e <http://www.w3.org/2002/07/owl#onDataRange> _:Bb1de841ef87909b39cf8f13c8e3bae11 .
+_:B074f9a05a8b118b7e980d2e3570ec87e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B0cba42267a85c39b709b72d3f331eb30 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfActivation> .
+_:B0cba42267a85c39b709b72d3f331eb30 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B0cba42267a85c39b709b72d3f331eb30 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B0cba42267a85c39b709b72d3f331eb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B3f7e0a7aX2D52e1X2D421eX2D83a7X2D40cb1732343d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:B3f7e0a7aX2D52e1X2D421eX2D83a7X2D40cb1732343d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "no" .
+_:B02fbfe51ad948fbdb8882e38550f4cce <https://schema.org/name> "Ruhr University Bochum" .
+_:B02fbfe51ad948fbdb8882e38550f4cce <https://schema.org/identifier> <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/philipp_hagedorn.html.en> .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Eindeutiger Bezeichner, der mit dem in RFC 4122 beschriebenen Algorithmus erzeugt wird"@de-DE .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique identifier generated using the algorithm denoted in RFC 4122" .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA001/GA001" .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Global eindeutiger Bezeichner (GUID)"@de-DE .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <https://w3id.org/iddo#code> "PA001/GA001"@de-DE .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <https://w3id.org/iddo#code> "PA001/GA001" .
+<https://w3id.org/iddo#GloballyUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Globally Unique Identifier (GUID)" .
+_:Bb2a91626194c916473569ba0f331a405 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ExampleInLanguage> .
+_:Bb2a91626194c916473569ba0f331a405 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bb2a91626194c916473569ba0f331a405 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bb2a91626194c916473569ba0f331a405 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DescriptionInLanguage> <https://w3id.org/iddo#code> "PA019"@de-DE .
+<https://w3id.org/iddo#DescriptionInLanguage> <https://w3id.org/iddo#code> "PA019" .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (Description of the property, language)" .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Beschreibung in Sprache N"@de-DE .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA019" .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (Beschreibung des Merkmals, Sprache)"@de-DE .
+<https://w3id.org/iddo#DescriptionInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Description in language N" .
+_:B7a012099e9e0a4d97dd0097a428cf7ff <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#PhysicalQuantity> .
+_:B7a012099e9e0a4d97dd0097a428cf7ff <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B7a012099e9e0a4d97dd0097a428cf7ff <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B7a012099e9e0a4d97dd0097a428cf7ff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B859c7107849755104a6c40a5bb491245 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#VisualRepresentation> .
+_:B859c7107849755104a6c40a5bb491245 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B859c7107849755104a6c40a5bb491245 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B859c7107849755104a6c40a5bb491245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bf6886636d6b94f63f229a34cf979b72a <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfLastChange> .
+_:Bf6886636d6b94f63f229a34cf979b72a <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:Bf6886636d6b94f63f229a34cf979b72a <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bf6886636d6b94f63f229a34cf979b72a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B6d3f4604X2Db954X2D4e84X2D87c0X2Dfae47f76e95c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bb1a4a304X2Db665X2D4050X2D9f11X2D85abcb801060 .
+_:B6d3f4604X2Db954X2D4e84X2D87c0X2Dfae47f76e95c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Alternative use" .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA011" .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2000/01/rdf-schema#label> "List of replaced properties" .
+<https://w3id.org/iddo#ListOfReplacedProperties> <https://w3id.org/iddo#code> "PA011"@de-DE .
+<https://w3id.org/iddo#ListOfReplacedProperties> <https://w3id.org/iddo#code> "PA011" .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Globally unique identifier of the replaced property (or properties)" .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Global eindeutiger Bezeichner des ersetzten Merkmals (oder der Merkmale)"@de-DE .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Liste ersetzter Merkmale"@de-DE .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ListOfReplacedProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:Bb1de841ef87909b39cf8f13c8e3bae11 <http://www.w3.org/2002/07/owl#oneOf> _:B40333d38X2Db0acX2D44aaX2D9102X2D1cb04d4f4566 .
+_:Bb1de841ef87909b39cf8f13c8e3bae11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2004/02/skos/core#example> "no" .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA031" .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Dynamisches Merkmal"@de-DE .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Dynamic Property" .
+<https://w3id.org/iddo#DynamicProperty> <https://w3id.org/iddo#code> "PA031"@de-DE .
+<https://w3id.org/iddo#DynamicProperty> <https://w3id.org/iddo#code> "PA031" .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2000/01/rdf-schema#range> _:Bde2ce2ddb93c97022b0eebcbdb2f4bfe .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2004/02/skos/core#example> "yes" .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Wenn es sich um ein dynamisches Merkmal handelt, haengt der Wert von den im Attribut PA032 bereitgestellten Parametern ab"@de-DE .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DynamicProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "If this is a dynamic property, the value is dependent on the parameters provided in the attribute PA032" .
+_:B7f1f220b8e516e572b2ed07f221df060 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ListOfReplacedProperties> .
+_:B7f1f220b8e516e572b2ed07f221df060 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#Property> .
+_:B7f1f220b8e516e572b2ed07f221df060 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B7f1f220b8e516e572b2ed07f221df060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA026/GA021" .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#CountryOfOrigin> <https://w3id.org/iddo#code> "PA026/GA021" .
+<https://w3id.org/iddo#CountryOfOrigin> <https://w3id.org/iddo#code> "PA026/GA021"@de-DE .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "Ursprungsland"@de-DE .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Country from where the requirement for this property/group of properties originated" .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "Country of origin" .
+<https://w3id.org/iddo#CountryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Land, aus dem die Anforderung an dieses Merkmal/dieser Merkmalsgruppe stammt"@de-DE .
+_:Bc537c3335d08b6dfc43d4741d1ab5535 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bc537c3335d08b6dfc43d4741d1ab5535 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#NumberOfCharacters> .
+_:Bc537c3335d08b6dfc43d4741d1ab5535 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:Bc537c3335d08b6dfc43d4741d1ab5535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bbba0fe368e44c35d9d9ea234babfa822 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#NameInLanguage> .
+_:Bbba0fe368e44c35d9d9ea234babfa822 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bbba0fe368e44c35d9d9ea234babfa822 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bbba0fe368e44c35d9d9ea234babfa822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair (symbol of the property, globally unique identifier of the group of properties (attribute GA001))" .
+<https://w3id.org/iddo#SymbolOfTheProperty> <https://w3id.org/iddo#code> "PA022"@de-DE .
+<https://w3id.org/iddo#SymbolOfTheProperty> <https://w3id.org/iddo#code> "PA022" .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B447a5bffbbe9b7d118a971886f2adfc1 .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA022" .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar (Symbol des Merkmals, global eindeutiger Bezeichner der Merkmalsgruppe (Attribut GA001))"@de-DE .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Symbol of the property in a given property group" .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bdac2840c23dd0f25645e12f9c277e5ee .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Symbol des Merkmals in einer gegebenen Merkmalsgruppe"@de-DE .
+<https://w3id.org/iddo#SymbolOfTheProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2000/01/rdf-schema#comment> "Fuer numerische Werte; der Gesamtbetrag, um den eine be-stimmte Einheit schwanken darf; sie ist die Differenz zwischen dem Hoechstwert und dem Mindestwert fuer die Einheit"@de-DE .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA036" .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/iddo#Tolerance> <https://w3id.org/iddo#code> "PA036"@de-DE .
+<https://w3id.org/iddo#Tolerance> <https://w3id.org/iddo#code> "PA036" .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2000/01/rdf-schema#label> "Toleranz"@de-DE .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2000/01/rdf-schema#label> "Tolerance" .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#Tolerance> <http://www.w3.org/2000/01/rdf-schema#comment> "For numerical values; the total amount that a specific unit is permitted to vary; it is the difference between the maximum and the minimum limits for the unit" .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA039" .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2000/01/rdf-schema#label> "Possible value in language N" .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B2335e43d75910e130a1daf03ffe3248a .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2000/01/rdf-schema#comment> "Possible value for the property and language\nValues can be string or numbers" .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2000/01/rdf-schema#comment> "Moeglicher Wert fuer das Merkmal und Sprache\nWerte koennen String oder Zahlen sein"@de-DE .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <https://w3id.org/iddo#code> "PA039"@de-DE .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <https://w3id.org/iddo#code> "PA039" .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/PropertyValue> .
+<https://w3id.org/iddo#PossibleValueInLanguageN> <http://www.w3.org/2000/01/rdf-schema#label> "Liste moeglicher Werte in Sprache N"@de-DE .
+_:B1d8ac4acfc8f342a360c8eafc6ff0247 <http://www.w3.org/2002/07/owl#oneOf> _:Bf8cdc566X2DecddX2D4d20X2Db5f2X2D6cb55489a530 .
+_:B1d8ac4acfc8f342a360c8eafc6ff0247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:B1785b2144e0a440fbef5d78dcf86c9e2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B1785b2144e0a440fbef5d78dcf86c9e2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#InterConDictID> .
+_:B1785b2144e0a440fbef5d78dcf86c9e2 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B1785b2144e0a440fbef5d78dcf86c9e2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <https://w3id.org/iddo#code> "PA022"@de-DE .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (symbol of the property, globally unique identifier of the group of properties (attribute GA001))" .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <https://w3id.org/iddo#code> "PA022" .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA022" .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#SymbolOfTheProperty> .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (Symbol des Merkmals, global eindeutiger Bezeichner der Merkmalsgruppe (Attribut GA001))"@de-DE .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Symbols of the property in a given property group" .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Symbole des Merkmals in einer gegebenen Merk-malsgruppe"@de-DE .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#SymbolsOfTheProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair for text type (encoding, number of characters)\nThe encoding is set according to Name of encoding standard of IANA, RFC 2978" .
+<https://w3id.org/iddo#TextFormat> <https://w3id.org/iddo#code> "PA038"@de-DE .
+<https://w3id.org/iddo#TextFormat> <https://w3id.org/iddo#code> "PA038" .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA038" .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Textformat"@de-DE .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#TextFormatItem> .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar fuer den Texttyp (Ver-schluesselung, Anzahl der Zeichen)\ndie Verschluesselung wird nach Name der Codierungsnorm von IANA, RFC 2978 festgelegt"@de-DE .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Text format" .
+<https://w3id.org/iddo#TextFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B2342b200c9215748fa73594a3a8fe7bf .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B089f87f3bdf98fd8318c3b952fbd82d7 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B28019096d4dc2fbf151a1fcc26ec9a63 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ba45e943fa4cb15d1102afc45579be51e .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Be5e9ea5258074eb7eab0ce6a315f879e .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ba6aa50649f9d9d1f925569dd40712386 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B05f72c37171cf00cfda9a4e3a37a0773 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B5a323616c250804633edd8a45ba4e892 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Group of properties" .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Be7a0bf38bfe2547758933cf3a41dc738 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bf6886636d6b94f63f229a34cf979b72a .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B2f55443443fb9974cadf14a54b096f0c .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B58429611e10314def32fbcef18d59e5f .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Becaab3e3da1defbe485603a846fe296d .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb950ed8bacb8a7eb82e1638616a4588a .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection enabling the properties to be prearranged or organized" .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B3a3f9a2ccdc623ef13646a7eb8c9fdcc .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B39930f0e53e54f3fb3ecf92da2c560de .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bf97dc8e7e1e729a9123ef6b9cdfbdf1d .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B5934c913ed120691d4796c05ad742ca8 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B4436592a3215d8b648d181ac2401976a .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B711dc57ca8bcaa286a159702d586a2c6 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B866c80b2dbc64ff2a0080de2615a5c08 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B6941aef56caad7f45ed758c3230f1ab0 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B1cd4656cac5375d93912bea8b6831562 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bcfc1301bd0c44744313c356d8607c589 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb98aa11fda8144136b8f977cc85b8936 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B3c4c65dbdff9039e8889e8c79d2d18ac .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Merkmalsgruppe"@de-DE .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B31483983bf88ce1b6e2895de4a4a9623 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B8ff9cbd4aa5208681b4e0715e0ff1fb8 .
+<https://w3id.org/iddo#GroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Sammlung, die es ermoeglicht, die Merkmale vorauszuplanen oder zu organisieren"@de-DE .
+_:B6765a81f46640b9990afef3e6f8ad613 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B6765a81f46640b9990afef3e6f8ad613 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GloballyUniqueIdentifier> .
+_:B6765a81f46640b9990afef3e6f8ad613 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B6765a81f46640b9990afef3e6f8ad613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B4e038dddX2D47e7X2D4059X2D92e6X2D1005fc3a81a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:B4e038dddX2D47e7X2D4059X2D92e6X2D1005fc3a81a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Reference document" .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA014" .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Relation of propertiy identifier in the interconnected data dictionaries" .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar (interner Merkmalsbezeichner, entsprechender Datenkatalog-Bezeichner)\nDieses Attribut sollte fuer die Vertraeglichkeit zwischen bereits vorhandenen Merkmalen verwendet werden"@de-DE .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bdb96a0d3d00b132cf0b2a8b1d97d9b67 .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "PA014"@de-DE .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "PA014" .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bfac63e8d57537815f34867e83527160d .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Beziehung des Merkmalsbezeichners in den miteinander verbundenen Datenkatalogen"@de-DE .
+<https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair (property internal identifier, corresponding data dictionary identifier)\nThis attribute should be used for compatibility between already existing properties" .
+_:Be2a7eee606b338b87c858b8f560b8711 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DefiningValueItem> .
+_:Be2a7eee606b338b87c858b8f560b8711 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Be2a7eee606b338b87c858b8f560b8711 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bf97dc8e7e1e729a9123ef6b9cdfbdf1d <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> .
+_:Bf97dc8e7e1e729a9123ef6b9cdfbdf1d <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#GroupOfProperties> .
+_:Bf97dc8e7e1e729a9123ef6b9cdfbdf1d <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bf97dc8e7e1e729a9123ef6b9cdfbdf1d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B368b897d15a93a9f5f0960bf74e0e2b1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Dimension> .
+_:B368b897d15a93a9f5f0960bf74e0e2b1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B368b897d15a93a9f5f0960bf74e0e2b1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B368b897d15a93a9f5f0960bf74e0e2b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA037" .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar fuer den digitalen Texttyp (Praezision, Masseinheit)\nPraezision ist die Anzahl signifikanter Stellen"@de-DE .
+<https://w3id.org/iddo#DigitalFormat> <https://w3id.org/iddo#code> "PA037"@de-DE .
+<https://w3id.org/iddo#DigitalFormat> <https://w3id.org/iddo#code> "PA037" .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Digital format" .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair for digital text type (precision, unit)\nPrecision is the number of significant digits" .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Digitales Format"@de-DE .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#DigitalFormatItem> .
+<https://w3id.org/iddo#DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:B58be888cf05bca4debf560814f080ebb <http://www.w3.org/2002/07/owl#oneOf> _:B4491148eX2Dbe4eX2D4d85X2Da07aX2Db45a94e21257 .
+_:B58be888cf05bca4debf560814f080ebb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:B40333d38X2Db0acX2D44aaX2D9102X2D1cb04d4f4566 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bca46bbf7X2D221dX2D493aX2D8828X2D29aebe9316e6 .
+_:B40333d38X2Db0acX2D44aaX2D9102X2D1cb04d4f4566 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "yes" .
+_:B803169dbbec2db05ca193313cc94dbd4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#BoundaryValue> .
+_:B803169dbbec2db05ca193313cc94dbd4 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#BoundaryValueItem> .
+_:B803169dbbec2db05ca193313cc94dbd4 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B803169dbbec2db05ca193313cc94dbd4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Be7a0bf38bfe2547758933cf3a41dc738 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#VisualRepresentation> .
+_:Be7a0bf38bfe2547758933cf3a41dc738 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Be7a0bf38bfe2547758933cf3a41dc738 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Be7a0bf38bfe2547758933cf3a41dc738 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bc33014579d8d7aea3aab6890b5c4a027 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bc33014579d8d7aea3aab6890b5c4a027 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DataType> .
+_:Bc33014579d8d7aea3aab6890b5c4a027 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bc33014579d8d7aea3aab6890b5c4a027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of revision" .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#label> "Datum der Ueberarbeitung"@de-DE .
+<https://w3id.org/iddo#DateOfRevision> <https://w3id.org/iddo#code> "PA006/GA006" .
+<https://w3id.org/iddo#DateOfRevision> <https://w3id.org/iddo#code> "PA006/GA006"@de-DE .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#label> "Date of revision" .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum der Ueberarbeitung"@de-DE .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DateOfRevision> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA006/GA006" .
+_:B3c4c65dbdff9039e8889e8c79d2d18ac <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Tolerance> .
+_:B3c4c65dbdff9039e8889e8c79d2d18ac <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:B3c4c65dbdff9039e8889e8c79d2d18ac <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B3c4c65dbdff9039e8889e8c79d2d18ac <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B5a323616c250804633edd8a45ba4e892 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DefinitionInLanguage> .
+_:B5a323616c250804633edd8a45ba4e892 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B5a323616c250804633edd8a45ba4e892 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B5a323616c250804633edd8a45ba4e892 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bd063af91c8ad4d11f6e0e60b6a231ecd <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DigitalFormat> .
+_:Bd063af91c8ad4d11f6e0e60b6a231ecd <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#DigitalFormatItem> .
+_:Bd063af91c8ad4d11f6e0e60b6a231ecd <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bd063af91c8ad4d11f6e0e60b6a231ecd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B41871219X2D2ca5X2D4957X2Db341X2Dca978da93687 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:B41871219X2D2ca5X2D4957X2Db341X2Dca978da93687 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "inactive" .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#Dimension> <https://w3id.org/iddo#code> "PA028"@de-DE .
+<https://w3id.org/iddo#Dimension> <https://w3id.org/iddo#code> "PA028" .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimension" .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimension"@de-DE .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Falle einer physikalischen Groesse, Dimension nach ISO 80000 (alle Teile)\ndieses Attribut ermoeglicht, dass die Dimension maschinenlesbar ist; da alle physikalischen Groessen von 7 Basisgroessen abgeleitet sind, wird es durch Angabe der Basisdimensionen mit zugehoeriger Potenz (als rationale Zahl) in der folgenden Reihenfolge und mit jeweils einem Leerzeichen dazwischen angegeben"@de-DE .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2000/01/rdf-schema#comment> "In case of a physical quantity, dimension according to ISO 80000 (all parts)\nThis attribute allows the dimension to be machine readable; as all physical quantities are derived from 7 base quantities, it is provided with the power (as a rational number) attached to a basic dimension in the following order and with one space between each" .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA028" .
+<https://w3id.org/iddo#Dimension> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+_:B45ebd49a5cd73beecc12f5f49f34e220 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ParametersOfTheDynamicProperty> .
+_:B45ebd49a5cd73beecc12f5f49f34e220 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#Property> .
+_:B45ebd49a5cd73beecc12f5f49f34e220 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B45ebd49a5cd73beecc12f5f49f34e220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bdb96a0d3d00b132cf0b2a8b1d97d9b67 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bdb96a0d3d00b132cf0b2a8b1d97d9b67 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#InterConDictID> .
+_:Bdb96a0d3d00b132cf0b2a8b1d97d9b67 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bdb96a0d3d00b132cf0b2a8b1d97d9b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#label> "Country of use" .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Country (group of countries, continent) in which the property is relevant for the market the stakeholders operate in" .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Land (Gruppe von Laendern, Kon-tinent), in dem das Merkmal/die Merkmalsgruppe fuer den Markt, auf dem die Beteiligten arbeiten, relevant ist"@de-DE .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA024/GA019" .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#label> "Land der Verwendung"@de-DE .
+<https://w3id.org/iddo#CountryOfUse> <https://w3id.org/iddo#code> "PA024/GA019" .
+<https://w3id.org/iddo#CountryOfUse> <https://w3id.org/iddo#code> "PA024/GA019"@de-DE .
+<https://w3id.org/iddo#CountryOfUse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#Units> <https://w3id.org/iddo#code> "PA033"@de-DE .
+<https://w3id.org/iddo#Units> <https://w3id.org/iddo#code> "PA033" .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit to represent a scale that enables a value to be measured\nIt is possible to use this attribute to explain there is no unit attached to the property by using unitless" .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Einheit zur Darstellung einer Skala, die es ermoeglicht, einen Wert zu messen\nes ist moeglich, dieses Attribut zu verwenden, um zu erlaeutern, dass dem Merkmal keine Einheit zugeordnet ist, indem einheitslos verwendet wird"@de-DE .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2000/01/rdf-schema#label> "Einheiten"@de-DE .
+<https://w3id.org/iddo#Units> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA033" .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/Unit> .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#Units> <http://www.w3.org/2000/01/rdf-schema#label> "Units" .
+_:Ba70a3940888bdce6b2318716c4770347 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ListOfReplacingProperties> .
+_:Ba70a3940888bdce6b2318716c4770347 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#Property> .
+_:Ba70a3940888bdce6b2318716c4770347 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Ba70a3940888bdce6b2318716c4770347 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bd4e201e0209079cd7ba816a0373b85ad <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DescriptionInLanguage> .
+_:Bd4e201e0209079cd7ba816a0373b85ad <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bd4e201e0209079cd7ba816a0373b85ad <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bd4e201e0209079cd7ba816a0373b85ad <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B447a5bffbbe9b7d118a971886f2adfc1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B447a5bffbbe9b7d118a971886f2adfc1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Symbol> .
+_:B447a5bffbbe9b7d118a971886f2adfc1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B447a5bffbbe9b7d118a971886f2adfc1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://w3id.org/iddo#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/iddo#code> <http://www.w3.org/2000/01/rdf-schema#comment> "Code that can be used to identify the attribute" .
+<https://w3id.org/iddo#code> <http://www.w3.org/2000/01/rdf-schema#comment> "Code, der zur Identifizierung des Attributs verwendet werden kann"@de-DE .
+<https://w3id.org/iddo#code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://w3id.org/iddo#code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2000/01/rdf-schema#> .
+<https://w3id.org/iddo#code> <http://www.w3.org/2000/01/rdf-schema#label> "Code" .
+<https://w3id.org/iddo#code> <http://www.w3.org/2000/01/rdf-schema#label> "Code"@de-DE .
+<https://w3id.org/iddo#code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:Ba8b194c92e1859f19f0065bfa53b752f <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/value> .
+_:Ba8b194c92e1859f19f0065bfa53b752f <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Ba8b194c92e1859f19f0065bfa53b752f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B05f72c37171cf00cfda9a4e3a37a0773 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfActivation> .
+_:B05f72c37171cf00cfda9a4e3a37a0773 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B05f72c37171cf00cfda9a4e3a37a0773 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B05f72c37171cf00cfda9a4e3a37a0773 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B319a9ac31d6b47b20fe92f26ad3adad8 <http://www.w3.org/2002/07/owl#oneOf> _:Bb9cfde30X2D5666X2D4e5cX2Dbd84X2Dc6cde090132f .
+_:B319a9ac31d6b47b20fe92f26ad3adad8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:B049ead57X2Dff54X2D4cdaX2D88eeX2Db1f6dea0e0bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:B049ead57X2Dff54X2D4cdaX2D88eeX2Db1f6dea0e0bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "inactive" .
+_:B276c33883fba3a7706a65ec7c6ae4759 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B276c33883fba3a7706a65ec7c6ae4759 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#InterConDictID> .
+_:B276c33883fba3a7706a65ec7c6ae4759 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B276c33883fba3a7706a65ec7c6ae4759 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bca46bbf7X2D221dX2D493aX2D8828X2D29aebe9316e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Bca46bbf7X2D221dX2D493aX2D8828X2D29aebe9316e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "no" .
+<https://w3id.org/iddo#Property_1> <http://www.w3.org/2000/01/rdf-schema#label> "Property"@en .
+<https://w3id.org/iddo#Property_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#Property_1> <http://www.w3.org/2000/01/rdf-schema#label> "Merkmal"@de .
+<https://w3id.org/iddo#Property_1> <https://w3id.org/iddo#NameInLanguage> "Name"@de .
+_:B04faee6525910290c39605867849faf9 <https://schema.org/name> "Ruhr University Bochum" .
+_:B04faee6525910290c39605867849faf9 <https://schema.org/identifier> <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/sven_zentgraf.html.en> .
+_:B932d13a218b8ceb8c2d33a58034bc1c7 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/minValue> .
+_:B932d13a218b8ceb8c2d33a58034bc1c7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B932d13a218b8ceb8c2d33a58034bc1c7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B1fd6bd07394407fcb10afcc4c76ee792 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfLastChange> .
+_:B1fd6bd07394407fcb10afcc4c76ee792 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B1fd6bd07394407fcb10afcc4c76ee792 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B1fd6bd07394407fcb10afcc4c76ee792 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Beziehung der Bezeichner der Merkmalsgruppe in den miteinander verbundenen Datenkatalogen"@de-DE .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Relations of the group of properties identifiers in the interconnected data dictionaries" .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2004/02/skos/core#scopeNote> "GA014" .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "GA014"@de-DE .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "GA014" .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (group of properties internal identifier, corresponding data dictionary identifier)\nThis attribute should be used for compatibility between already existing groups of properties" .
+<https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (inter-ner Bezeichner der Merkmalsgruppe, ent-sprechender Daten-katalog-Bezeichner)\ndieses Attribut sollte fuer die Kompatibilitaet zwischen bereits vorhandenen Merk-malsgruppen verwen-det werden"@de-DE .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of deactivation" .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#label> "Date of deactivation" .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA008/GA008" .
+<https://w3id.org/iddo#DateOfDeactivation> <https://w3id.org/iddo#code> "PA008/GA008" .
+<https://w3id.org/iddo#DateOfDeactivation> <https://w3id.org/iddo#code> "PA008/GA008"@de-DE .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#label> "Datum der Deaktivierung"@de-DE .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum der Deaktivierung"@de-DE .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DateOfDeactivation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+_:Bd2fc45b4303701d0c883854114dc7202 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3id.org/opm#hasPropertyState> .
+_:Bd2fc45b4303701d0c883854114dc7202 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bd2fc45b4303701d0c883854114dc7202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B2926e316ba28b2354788cdf0e6f9ca79 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DefinitionInLanguage> .
+_:B2926e316ba28b2354788cdf0e6f9ca79 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B2926e316ba28b2354788cdf0e6f9ca79 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B2926e316ba28b2354788cdf0e6f9ca79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B31b15cb9a6afdbad4b74c2dc5b4cdd67 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B31b15cb9a6afdbad4b74c2dc5b4cdd67 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfVersion> .
+_:B31b15cb9a6afdbad4b74c2dc5b4cdd67 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B31b15cb9a6afdbad4b74c2dc5b4cdd67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B3a158a534efccd4437d46e7b79fe0ba7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GroupsOfProperties> .
+_:B3a158a534efccd4437d46e7b79fe0ba7 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#GroupOfProperties> .
+_:B3a158a534efccd4437d46e7b79fe0ba7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B3a158a534efccd4437d46e7b79fe0ba7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von global eindeutigen Bezeichnern von Merkmalsgruppen (Attribut GA001), denen das Merkmal angehoert"@de-DE .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "List of globally unique identifiers of groups of properties (attribute GA001) to which the property is attached" .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Group(s) of properties" .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA021" .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Merkmalsgruppe(n)"@de-DE .
+<https://w3id.org/iddo#GroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#GroupsOfProperties> <https://w3id.org/iddo#code> "PA021"@de-DE .
+<https://w3id.org/iddo#GroupsOfProperties> <https://w3id.org/iddo#code> "PA021" .
+_:B68179d506d42e1a3ce84eca4453b4288 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B68179d506d42e1a3ce84eca4453b4288 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Status> .
+_:B68179d506d42e1a3ce84eca4453b4288 <http://www.w3.org/2002/07/owl#onDataRange> _:B1d8ac4acfc8f342a360c8eafc6ff0247 .
+_:B68179d506d42e1a3ce84eca4453b4288 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B1785b2144e0a440fbef5d78dcf86c9e2 .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bca018b5bc2cf314d8115f877e953583d .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B6765a81f46640b9990afef3e6f8ad613 .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Beziehung des Bezeichners der Merkmalsgruppe in den miteinander verbundenen Datenkatalogen"@de-DE .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2004/02/skos/core#scopeNote> "GA014" .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Relation of the group of properties identifier in the interconnected data dictionaries" .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B276c33883fba3a7706a65ec7c6ae4759 .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair (group of properties internal identifier, corresponding data dictionary identifier)\nThis attribute should be used for compatibility between already existing groups of properties" .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar (interner Bezeichner der Merkmalsgruppe, entsprechender Datenkatalog-Bezeichner)\r\ndieses Attribut sollte fuer die Kompatibilitaet zwischen bereits vorhandenen Merkmalsgruppen verwendet werden"@de-DE .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "GA014"@de-DE .
+<https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "GA014" .
+<https://w3id.org/iddo> <http://www.w3.org/2004/02/skos/core#historyNote> "v0.2: ontology update \r\n\r\nv0.1: initial ontology for BIMSTRUCT project \n  " .
+<https://w3id.org/iddo> <http://purl.org/dc/terms/created> "2019-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/iddo> <http://www.w3.org/2002/07/owl#versionInfo> "v0.2" .
+<https://w3id.org/iddo> <http://purl.org/dc/terms/contributor> _:B1907ceeb215f95239c3755b186185256 .
+<https://w3id.org/iddo> <http://www.w3.org/2000/01/rdf-schema#label> "The Interconnected Data Dictionary Ontology (IDDO)" .
+<https://w3id.org/iddo> <http://www.w3.org/2000/01/rdf-schema#comment> "The interconnected data dictionary ontology maps the data model of the ISO 23386 for the describing, creating, and maintenance of properties in interconnected data dictionaries.\r\n\r\nThe namespace for IDDO terms is [https://w3id.org/iddo](https://w3id.org/iddo)\r\n\r\nThe preferred prefix for the IDDO namespace is `iddo`." .
+<https://w3id.org/iddo> <http://purl.org/dc/terms/issued> "2021-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/iddo> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/iddo> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/iddo> .
+<https://w3id.org/iddo> <http://purl.org/dc/terms/creator> _:B15d96b3b83d70669aca5d24d0337f0a9 .
+<https://w3id.org/iddo> <http://purl.org/dc/terms/modified> "2021-12-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/iddo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/iddo> <https://schema.org/codeRepository> <https://git.inf.bi.ruhr-uni-bochum.de/semweb-ontology/iddo> .
+<https://w3id.org/iddo> <http://purl.org/dc/terms/publisher> _:Bd0d2a5b05202cb3b7814f51f7d1f0a0e .
+<https://w3id.org/iddo> <http://purl.org/vocab/vann/preferredNamespacePrefix> "iddo" .
+<https://w3id.org/iddo> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/iddo> .
+_:Bd0d2a5b05202cb3b7814f51f7d1f0a0e <https://schema.org/parentOrganization> _:B3bf5fa42ce63fd10366391ced019cee2 .
+_:Bd0d2a5b05202cb3b7814f51f7d1f0a0e <https://schema.org/name> "Chair of Computing in Engineering, Ruhr University Bochum" .
+_:Bd0d2a5b05202cb3b7814f51f7d1f0a0e <https://schema.org/identifier> <https://www.inf.bi.rub.de> .
+_:Bd0d2a5b05202cb3b7814f51f7d1f0a0e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+_:B4436592a3215d8b648d181ac2401976a <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#RelationsOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> .
+_:B4436592a3215d8b648d181ac2401976a <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> .
+_:B4436592a3215d8b648d181ac2401976a <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B4436592a3215d8b648d181ac2401976a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bd2fc45b4303701d0c883854114dc7202 .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Baaa8d6a83e8903a6182a79c3edbc0274 .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the assignment of a property and a property state to a feature of interest (FOI)." .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Assigned property" .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Zugewiesenes Merkmal"@de-DE .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/opm#Property> .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/iddo#AssignedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Repraesentiert die Zweisung eines Merkmals und einer Merkmalszustandes an ein Feature of Interest (FOI)"@de-DE .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Masseinheit fuer den digitalen Texttyp"@de-DE .
+<https://w3id.org/iddo#Unit> <https://w3id.org/iddo#code> "PA037"@de-DE .
+<https://w3id.org/iddo#Unit> <https://w3id.org/iddo#code> "PA037" .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/Unit> .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Einheit"@de-DE .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA037" .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit of measurement for the digital text type" .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit" .
+<https://w3id.org/iddo#Unit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#DigitalFormatItem> .
+_:Bb98aa11fda8144136b8f977cc85b8936 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bb98aa11fda8144136b8f977cc85b8936 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CountryOfOrigin> .
+_:Bb98aa11fda8144136b8f977cc85b8936 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bb98aa11fda8144136b8f977cc85b8936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B33fabf81c3011f82114ea822ace60165 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B33fabf81c3011f82114ea822ace60165 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Precision> .
+_:B33fabf81c3011f82114ea822ace60165 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:B33fabf81c3011f82114ea822ace60165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "Bildliche Darstellung des Merkmals durch Skizzen, Fotos, Videos oder sonstige Multimedia-Objekte"@de-DE .
+<https://w3id.org/iddo#VisualRepresentation> <https://w3id.org/iddo#code> "PA023/GA018"@de-DE .
+<https://w3id.org/iddo#VisualRepresentation> <https://w3id.org/iddo#code> "PA023/GA018" .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#label> "Bildliche Darstellung"@de-DE .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA023/GA018" .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "Visual representation of the group of properties through sketches, photos, videos or other multimedia objects" .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#VisualRepresentation> <http://www.w3.org/2000/01/rdf-schema#label> "Visual representation" .
+_:Bf02456c3X2D1f30X2D4421X2Da590X2D423d56b3c453 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Bf02456c3X2D1f30X2D4421X2Da590X2D423d56b3c453 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "inactive" .
+_:B0069f8d384d9974d9030763a03de1356 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> .
+_:B0069f8d384d9974d9030763a03de1356 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B0069f8d384d9974d9030763a03de1356 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B0069f8d384d9974d9030763a03de1356 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2000/01/rdf-schema#comment> "The encoding is set according to Name of encoding standard of IANA, RFC 2978" .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2000/01/rdf-schema#label> "Number of Characters" .
+<https://w3id.org/iddo#NumberOfCharacters> <https://w3id.org/iddo#code> "PA038"@de-DE .
+<https://w3id.org/iddo#NumberOfCharacters> <https://w3id.org/iddo#code> "PA038" .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#TextFormatItem> .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2000/01/rdf-schema#label> "Anzahl der Zeichen"@de-DE .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Verschluesselung wird nach Name der Codierungsnorm von IANA, RFC 2978 festgelegt"@de-DE .
+<https://w3id.org/iddo#NumberOfCharacters> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA038" .
+_:B694575ffeefb46133d2a952ed65baf62 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ConnectedProperties> .
+_:B694575ffeefb46133d2a952ed65baf62 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#Property> .
+_:B694575ffeefb46133d2a952ed65baf62 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B694575ffeefb46133d2a952ed65baf62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bec73bf4bX2D7ca0X2D454dX2D8f7eX2Db03d21cd3c76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B3f7e0a7aX2D52e1X2D421eX2D83a7X2D40cb1732343d .
+_:Bec73bf4bX2D7ca0X2D454dX2D8f7eX2Db03d21cd3c76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "yes" .
+_:Be5e9ea5258074eb7eab0ce6a315f879e <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Dimension> .
+_:Be5e9ea5258074eb7eab0ce6a315f879e <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Be5e9ea5258074eb7eab0ce6a315f879e <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Be5e9ea5258074eb7eab0ce6a315f879e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Enthaelt einen definierenden Wert eines Arrays in Form eines Literals"@de-DE .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ba8b194c92e1859f19f0065bfa53b752f .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2000/01/rdf-schema#label> "Definierender Wert-Item"@de-DE .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2000/01/rdf-schema#label> "Defining value item" .
+<https://w3id.org/iddo#DefiningValueItem> <https://w3id.org/iddo#code> "PA035" .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains a defining value of an array in the form of a literal" .
+<https://w3id.org/iddo#DefiningValueItem> <https://w3id.org/iddo#code> "PA035"@de-DE .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA035" .
+<https://w3id.org/iddo#DefiningValueItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/PropertyValue> .
+_:Bd873227eab4ca695fbb181f3168e9b34 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bd873227eab4ca695fbb181f3168e9b34 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Encoding> .
+_:Bd873227eab4ca695fbb181f3168e9b34 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bd873227eab4ca695fbb181f3168e9b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#label> "Datum der letzten Aenderung"@de-DE .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/iddo#DateOfLastChange> <https://w3id.org/iddo#code> "PA005/GA005"@de-DE .
+<https://w3id.org/iddo#DateOfLastChange> <https://w3id.org/iddo#code> "PA005/GA005" .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA005/GA005" .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum der Validierung der letzten Aenderungsanfrage durch Sachverstaendige"@de-DE .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of validation of the last change request by experts" .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#label> "Date of last change" .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DateOfLastChange> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+_:B2342b200c9215748fa73594a3a8fe7bf <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CountryOfUse> .
+_:B2342b200c9215748fa73594a3a8fe7bf <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B2342b200c9215748fa73594a3a8fe7bf <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B2342b200c9215748fa73594a3a8fe7bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Ba6aa50649f9d9d1f925569dd40712386 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Ba6aa50649f9d9d1f925569dd40712386 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#RevisionNumber> .
+_:Ba6aa50649f9d9d1f925569dd40712386 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:Ba6aa50649f9d9d1f925569dd40712386 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Attaches a property reference to a property assignment" .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Fuegt ein Merkmal zu einer Merkmalszuweisung hinzu"@de-DE .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/2000/01/rdf-schema#label> "has Property Reference" .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/2000/01/rdf-schema#label> "hat Merkmalreferenz"@de-DE .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#AssignedProperty> .
+<https://w3id.org/iddo#hasPropertyReference> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#Property> .
+_:Bb239954f383e6b1e9d0db83198f8a712 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#NameOfTheDefiningValues> .
+_:Bb239954f383e6b1e9d0db83198f8a712 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bb239954f383e6b1e9d0db83198f8a712 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bb239954f383e6b1e9d0db83198f8a712 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bdad5dfa19768494c1e8931fced634e79 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Units> .
+_:Bdad5dfa19768494c1e8931fced634e79 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bdad5dfa19768494c1e8931fced634e79 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bdad5dfa19768494c1e8931fced634e79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B472effb786f1fe6635728fd849701d28 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CountryOfOrigin> .
+_:B472effb786f1fe6635728fd849701d28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B472effb786f1fe6635728fd849701d28 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B472effb786f1fe6635728fd849701d28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B1cd4656cac5375d93912bea8b6831562 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B1cd4656cac5375d93912bea8b6831562 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfVersion> .
+_:B1cd4656cac5375d93912bea8b6831562 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B1cd4656cac5375d93912bea8b6831562 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2000/01/rdf-schema#label> "Tolerance" .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/iddo#Precision> <https://w3id.org/iddo#code> "PA037"@de-DE .
+<https://w3id.org/iddo#Precision> <https://w3id.org/iddo#code> "PA037" .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#DigitalFormatItem> .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2000/01/rdf-schema#comment> "Precision is the number of significant digits" .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2000/01/rdf-schema#comment> "Praezision ist die Anzahl signifi-kanter Stellen"@de-DE .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2000/01/rdf-schema#label> "Toleranz"@de-DE .
+<https://w3id.org/iddo#Precision> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA037" .
+_:B9e2d04d5X2D7da1X2D41cdX2D9306X2Dd1ae94bcb57e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B4e038dddX2D47e7X2D4059X2D92e6X2D1005fc3a81a2 .
+_:B9e2d04d5X2D7da1X2D41cdX2D9306X2Dd1ae94bcb57e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Domain" .
+_:B2f55443443fb9974cadf14a54b096f0c <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B2f55443443fb9974cadf14a54b096f0c <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfCreation> .
+_:B2f55443443fb9974cadf14a54b096f0c <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B2f55443443fb9974cadf14a54b096f0c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B2335e43d75910e130a1daf03ffe3248a <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/value> .
+_:B2335e43d75910e130a1daf03ffe3248a <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B2335e43d75910e130a1daf03ffe3248a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B5934c913ed120691d4796c05ad742ca8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> .
+_:B5934c913ed120691d4796c05ad742ca8 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#GroupOfProperties> .
+_:B5934c913ed120691d4796c05ad742ca8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B5934c913ed120691d4796c05ad742ca8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B3bf5fa42ce63fd10366391ced019cee2 <https://schema.org/name> "Ruhr University Bochum, Germany" .
+_:B3bf5fa42ce63fd10366391ced019cee2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2000/01/rdf-schema#label> "Data type" .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2000/01/rdf-schema#label> "Datentyp (GUID)"@de-DE .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2000/01/rdf-schema#comment> "Format fuer die Angabe des Wertes des Merkmals\ndies kann aus einer Soft-ware-Perspektive als Speiche-rungsart verstanden werden\nim Falle eines dynamischen Merkmals ist der Wert dieses Attributs der Datentyp des Er-gebnisses der Berechnung mit der Gleichung"@de-DE .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2000/01/rdf-schema#comment> "Format for expressing the value of the property\nThis can be understood as the storage type from a software perspective\nIn case of a dynamic property the value of this attribute is the datatype of the result of the calculation by the formula" .
+<https://w3id.org/iddo#DataType> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA030" .
+<https://w3id.org/iddo#DataType> <https://w3id.org/iddo#code> "PA030" .
+<https://w3id.org/iddo#DataType> <https://w3id.org/iddo#code> "PA030"@de-DE .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (definition of the property/group of properties, language)" .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Definition in Sprache N"@de-DE .
+<https://w3id.org/iddo#DefinitionInLanguage> <https://w3id.org/iddo#code> "PA016/GA016"@de-DE .
+<https://w3id.org/iddo#DefinitionInLanguage> <https://w3id.org/iddo#code> "PA016/GA016" .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (Definition des Merkmals/der Merkmalsgruppe, Sprache)"@de-DE .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA016/GA016" .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DefinitionInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Definition of in language N" .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "List of globally unique identifiers of the replacing groups of properties" .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <https://w3id.org/iddo#code> "GA012"@de-DE .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <https://w3id.org/iddo#code> "GA012" .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Liste ersetzender Merkmalsgruppen"@de-DE .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "List of replacing groups of properties" .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "GA012" .
+<https://w3id.org/iddo#ListOfReplacingGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von globalen Bezeichnern fuer die ersetzenden Merkmalsgruppen"@de-DE .
+_:Ba45e943fa4cb15d1102afc45579be51e <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfDeactivation> .
+_:Ba45e943fa4cb15d1102afc45579be51e <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:Ba45e943fa4cb15d1102afc45579be51e <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Ba45e943fa4cb15d1102afc45579be51e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2000/01/rdf-schema#label> "Text format item" .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bc537c3335d08b6dfc43d4741d1ab5535 .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bd873227eab4ca695fbb181f3168e9b34 .
+<https://w3id.org/iddo#TextFormatItem> <https://w3id.org/iddo#code> "PA038"@de-DE .
+<https://w3id.org/iddo#TextFormatItem> <https://w3id.org/iddo#code> "PA038" .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2000/01/rdf-schema#label> "Textformat-Item"@de-DE .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA038" .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar fuer den Texttyp (Verschluesselung, Anzahl der Zeichen)\ndie Verschluesselung wird nach Name der Codierungsnorm von IANA, RFC 2978 festgelegt"@de-DE .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#TextFormatItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair for text type (encoding, number of characters)\nThe encoding is set according to Name of encoding standard of IANA, RFC 2978" .
+_:B7d1e7f20f04b4ccb9eb1f2ca8a8f4605 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Dimension> .
+_:B7d1e7f20f04b4ccb9eb1f2ca8a8f4605 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B7d1e7f20f04b4ccb9eb1f2ca8a8f4605 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B7d1e7f20f04b4ccb9eb1f2ca8a8f4605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B711dc57ca8bcaa286a159702d586a2c6 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DeprecationExplanation> .
+_:B711dc57ca8bcaa286a159702d586a2c6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B711dc57ca8bcaa286a159702d586a2c6 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B711dc57ca8bcaa286a159702d586a2c6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B55149125557c70636429858135f83893 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CountryOfUse> .
+_:B55149125557c70636429858135f83893 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B55149125557c70636429858135f83893 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B55149125557c70636429858135f83893 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B089f87f3bdf98fd8318c3b952fbd82d7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#SubdivisionOfUse> .
+_:B089f87f3bdf98fd8318c3b952fbd82d7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B089f87f3bdf98fd8318c3b952fbd82d7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B089f87f3bdf98fd8318c3b952fbd82d7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (Name des Merkmals und Sprache)\nDieses Attribut kann verwendet werden, um Synonyme fuer verschiedene Domaenen hinzuzufuegen"@de-DE .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Name in Sprache N"@de-DE .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA016/GA016" .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (property name and language)\nThis attribute can be used to add synonyms for different domains" .
+<https://w3id.org/iddo#NameInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Name in language N" .
+<https://w3id.org/iddo#NameInLanguage> <https://w3id.org/iddo#code> "PA016/GA016"@de-DE .
+<https://w3id.org/iddo#NameInLanguage> <https://w3id.org/iddo#code> "PA016/GA016" .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA039" .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2000/01/rdf-schema#label> "List of possible values in language N" .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#PossibleValueInLanguageN> .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (moeglicher Wert fuer das Merkmal und Sprache)\nWerte koennen String oder Zahlen sein"@de-DE .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (possible value for the property and language)\nValues can be string or numbers" .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <http://www.w3.org/2000/01/rdf-schema#label> "Liste moeglicher Werte in Sprache N"@de-DE .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <https://w3id.org/iddo#code> "PA039"@de-DE .
+<https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> <https://w3id.org/iddo#code> "PA039" .
+<https://w3id.org/iddo#Status> <https://w3id.org/iddo#code> "PA002/GA002" .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2004/02/skos/core#example> "inactive" .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#label> "Status"@de-DE .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#range> _:B58be888cf05bca4debf560814f080ebb .
+<https://w3id.org/iddo#Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#comment> "Status of the property during its life cycle" .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#comment> "Status des Merkmals waehrend seines Lebenszyklus"@de-DE .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA002/GA002" .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2004/02/skos/core#example> "active" .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#Status> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#Status> <https://w3id.org/iddo#code> "PA002/GA002"@de-DE .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von globalen Bezeichnern fuer die ersetzten Merk-malsgruppen"@de-DE .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "List of globally unique identifiers of the replaced groups of properties" .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "List of replaced groups of properties" .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <https://w3id.org/iddo#code> "GA011"@de-DE .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <https://w3id.org/iddo#code> "GA011" .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Liste ersetzter Merkmalsgruppen"@de-DE .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#ListOfReplacedGroupsOfProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "GA011" .
+<https://w3id.org/iddo#ParentGroupOfProperties> <https://w3id.org/iddo#code> "GA023"@de-DE .
+<https://w3id.org/iddo#ParentGroupOfProperties> <https://w3id.org/iddo#code> "GA023" .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "GA023" .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Parent group of properties" .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "uebergeordnete Merkmalsgruppe"@de-DE .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables a sub-group to be linked to a parent group via their globally unique identifiers (attribute GA001)\nAny property attached to a group is inherited by the sub-group(s)" .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#ParentGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Ermoeglicht die Ver-knuepfung einer Unter-gruppe mit einer ueber-geordneten Gruppe ueber ihre global ein-deutigen Bezeichner (Attribut GA001)\njedes einer Gruppe zugehoerige Merkmal wird von der/den Untergruppe(n) uebernommen"@de-DE .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#comment> "Entsprechender Daten-katalog-Bezeichner"@de-DE .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA014" .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#comment> "Corresponding data dictionary identifier" .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#label> "Interconnected Data Dictionary ID" .
+<https://w3id.org/iddo#InterConDictID> <https://w3id.org/iddo#code> "PA014/GA014"@de-DE .
+<https://w3id.org/iddo#InterConDictID> <https://w3id.org/iddo#code> "PA014/GA014" .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#label> "Miteinander verbundene Datenkatalog ID"@de-DE .
+<https://w3id.org/iddo#InterConDictID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+_:B28019096d4dc2fbf151a1fcc26ec9a63 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B28019096d4dc2fbf151a1fcc26ec9a63 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GloballyUniqueIdentifier> .
+_:B28019096d4dc2fbf151a1fcc26ec9a63 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B28019096d4dc2fbf151a1fcc26ec9a63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B8ff9cbd4aa5208681b4e0715e0ff1fb8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B8ff9cbd4aa5208681b4e0715e0ff1fb8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#VersionNumber> .
+_:B8ff9cbd4aa5208681b4e0715e0ff1fb8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:B8ff9cbd4aa5208681b4e0715e0ff1fb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DefiningValuesList> <https://w3id.org/iddo#code> "PA035"@de-DE .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA035" .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/2000/01/rdf-schema#comment> "In case of an array, this attribute provides the defining values when applicable, the datatype is given by the attribute PA030" .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/2000/01/rdf-schema#label> "Liste definierender Werte"@de-DE .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Be2a7eee606b338b87c858b8f560b8711 .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/2000/01/rdf-schema#label> "Defining values list" .
+<https://w3id.org/iddo#DefiningValuesList> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Falle eines Feldes liefert dieses Attribut die definierenden Werte, sofern zutreffend, der Datentyp wird durch das Attribut PA030 angegeben"@de-DE .
+<https://w3id.org/iddo#DefiningValuesList> <https://w3id.org/iddo#code> "PA035" .
+_:Bfac63e8d57537815f34867e83527160d <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bfac63e8d57537815f34867e83527160d <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GloballyUniqueIdentifier> .
+_:Bfac63e8d57537815f34867e83527160d <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bfac63e8d57537815f34867e83527160d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Beispiel in Sprache N"@de-DE .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (Beispiel des Merkmals, Sprache)"@de-DE .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Example in language N" .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA019" .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#ExampleInLanguage> <https://w3id.org/iddo#code> "PA019"@de-DE .
+<https://w3id.org/iddo#ExampleInLanguage> <https://w3id.org/iddo#code> "PA019" .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#ExampleInLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (example of the property, language)" .
+_:Bf84367acX2D033dX2D4dbaX2Db23fX2D5cfb34ee0650 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B41871219X2D2ca5X2D4957X2Db341X2Dca978da93687 .
+_:Bf84367acX2D033dX2D4dbaX2Db23fX2D5cfb34ee0650 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "active" .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#RevisionNumber> <https://w3id.org/iddo#code> "PA010/GA010"@de-DE .
+<https://w3id.org/iddo#RevisionNumber> <https://w3id.org/iddo#code> "PA010/GA010" .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "This revision number allows tracking of minor changes e.g. new translation, changes of typos: if the version number changes, the revision number starts again at 1\nExperts decide if a new revision number can be applied or if a new revision is needed" .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Nummer der ueberarbeitung"@de-DE .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Revision number" .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Diese Nummer der ueberarbeitung ermoeglicht die Verfolgung kleinerer aenderungen, z. B. neue uebersetzung, Korrekturen von Tippfehlern: wenn sich die Versionsnummer aendert, beginnt die Nummer der ueberarbeitung wieder bei 1.\nSachverstaendige entscheiden, ob eine neue Nummer der ueberarbeitung angewendet werden kann oder ob eine neue ueberarbeitung erforderlich ist."@de-DE .
+<https://w3id.org/iddo#RevisionNumber> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA010/GA010" .
+_:B4491148eX2Dbe4eX2D4d85X2Da07aX2Db45a94e21257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bf02456c3X2D1f30X2D4421X2Da590X2D423d56b3c453 .
+_:B4491148eX2Dbe4eX2D4d85X2Da07aX2Db45a94e21257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "active" .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/2000/01/rdf-schema#label> "Names of the defining values" .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/2000/01/rdf-schema#label> "Name der definierenden Werte"@de-DE .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA034" .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <https://w3id.org/iddo#code> "PA034"@de-DE .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <https://w3id.org/iddo#code> "PA034" .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/2000/01/rdf-schema#comment> "In case of an array, this attribute provides the names of the column headers defined as a list of pairs (name, language)" .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Falle eines Feldes liefert dieses Attribut die Namen der Spaltenkoepfe, festgelegt als Liste von Paaren (Name, Sprache)"@de-DE .
+<https://w3id.org/iddo#NameOfTheDefiningValues> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+_:B3a3f9a2ccdc623ef13646a7eb8c9fdcc <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ParentGroupOfProperties> .
+_:B3a3f9a2ccdc623ef13646a7eb8c9fdcc <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#GroupOfProperties> .
+_:B3a3f9a2ccdc623ef13646a7eb8c9fdcc <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B3a3f9a2ccdc623ef13646a7eb8c9fdcc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Versionsnummer"@de-DE .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "This version number allows tracking of major changes. Experts decide if a new version number must be applied" .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Diese Versionsnummer ermoeglicht die Verfolgung groesserer aenderungen. Sachverstaendige entscheiden, ob eine neue Ver-sionsnummer angewendet werden muss."@de-DE .
+<https://w3id.org/iddo#VersionNumber> <https://w3id.org/iddo#code> "PA009/GA009"@de-DE .
+<https://w3id.org/iddo#VersionNumber> <https://w3id.org/iddo#code> "PA009/GA009" .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA009/GA009" .
+<https://w3id.org/iddo#VersionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Version number" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "GA022" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the category of the created property group" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die Kategorie der erstellten Merkmalsgruppe an"@de-DE .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Category of group of properties" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2004/02/skos/core#example> "Class" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <https://w3id.org/iddo#code> "GA022" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <https://w3id.org/iddo#code> "GA022"@de-DE .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2004/02/skos/core#example> "Reference document" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2004/02/skos/core#example> "Domain" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2004/02/skos/core#example> "Composed property" .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Kategorie der Merkmalsgruppe"@de-DE .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2000/01/rdf-schema#range> _:B7101ee5b41cbfdea644df273cfc96bd8 .
+<https://w3id.org/iddo#CategoryOfGroupOfProperties> <http://www.w3.org/2004/02/skos/core#example> "Alternative use" .
+_:B43c2631152eb3df1399319aa61e1d1d8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Unit> .
+_:B43c2631152eb3df1399319aa61e1d1d8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B43c2631152eb3df1399319aa61e1d1d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B08407cbf4b56cd7f7c56ba4f08968aa3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B08407cbf4b56cd7f7c56ba4f08968aa3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GloballyUniqueIdentifier> .
+_:B08407cbf4b56cd7f7c56ba4f08968aa3 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B08407cbf4b56cd7f7c56ba4f08968aa3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2000/01/rdf-schema#label> "Boundary value" .
+<https://w3id.org/iddo#BoundaryValue> <https://w3id.org/iddo#code> "PA040" .
+<https://w3id.org/iddo#BoundaryValue> <https://w3id.org/iddo#code> "PA040"@de-DE .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Einzelnes Grenzwertintervall"@de-DE .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2000/01/rdf-schema#label> "Grenzwert"@de-DE .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#BoundaryValuesList> .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Single Boundary value interval" .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#BoundaryValueItem> .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#BoundaryValue> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA040" .
+_:Ba50bdd2a04c57026c7ea3a6b31871ba5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#SymbolsOfTheProperty> .
+_:Ba50bdd2a04c57026c7ea3a6b31871ba5 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#SymbolOfTheProperty> .
+_:Ba50bdd2a04c57026c7ea3a6b31871ba5 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Ba50bdd2a04c57026c7ea3a6b31871ba5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B932d13a218b8ceb8c2d33a58034bc1c7 .
+<https://w3id.org/iddo#BoundaryValueItem> <https://w3id.org/iddo#code> "PA040"@de-DE .
+<https://w3id.org/iddo#BoundaryValueItem> <https://w3id.org/iddo#code> "PA040" .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#label> "Boundary value item" .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Grenzwertintervall bestehend aus der unteren(minValue) und der oberen(maxValue) Intervallgrenze"@de-DE .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/PropertyValue> .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA040" .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bc3a397bd3959e114f68d738e19cc2652 .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#label> "Grenzwerte"@de-DE .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Boundary value interval consisting of the lower(minValue) and the upper(maxValue) interval boundary" .
+<https://w3id.org/iddo#BoundaryValueItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+_:B2dc835a51f2b3016532b9f60eb034fdb <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#MethodOfMeasurement> .
+_:B2dc835a51f2b3016532b9f60eb034fdb <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B2dc835a51f2b3016532b9f60eb034fdb <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B2dc835a51f2b3016532b9f60eb034fdb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B611c1d22X2D5dc2X2D4a63X2Daf9fX2D1e8f678a30bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:B611c1d22X2D5dc2X2D4a63X2Daf9fX2D1e8f678a30bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Reference document" .
+_:Bf8cdc566X2DecddX2D4d20X2Db5f2X2D6cb55489a530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B049ead57X2Dff54X2D4cdaX2D88eeX2Db1f6dea0e0bf .
+_:Bf8cdc566X2DecddX2D4d20X2Db5f2X2D6cb55489a530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "active" .
+_:Bb7c3fa6ac5a5bb5847a2e9dfe05c1031 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bb7c3fa6ac5a5bb5847a2e9dfe05c1031 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfRevision> .
+_:Bb7c3fa6ac5a5bb5847a2e9dfe05c1031 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:Bb7c3fa6ac5a5bb5847a2e9dfe05c1031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bca018b5bc2cf314d8115f877e953583d <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bca018b5bc2cf314d8115f877e953583d <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GloballyUniqueIdentifier> .
+_:Bca018b5bc2cf314d8115f877e953583d <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Bca018b5bc2cf314d8115f877e953583d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B6619808603c4772b5a8b4f23d167aaf1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DeprecationExplanation> .
+_:B6619808603c4772b5a8b4f23d167aaf1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B6619808603c4772b5a8b4f23d167aaf1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B6619808603c4772b5a8b4f23d167aaf1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bbb5850768006c077e878a542c5cf9f75 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ListOfPossibleValuesInLanguageN> .
+_:Bbb5850768006c077e878a542c5cf9f75 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#PossibleValueInLanguageN> .
+_:Bbb5850768006c077e878a542c5cf9f75 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bbb5850768006c077e878a542c5cf9f75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bc3a397bd3959e114f68d738e19cc2652 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/maxValue> .
+_:Bc3a397bd3959e114f68d738e19cc2652 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bc3a397bd3959e114f68d738e19cc2652 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Verschluesselung wird nach Name der Codierungsnorm von IANA, RFC 2978 festgelegt"@de-DE .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#TextFormatItem> .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA038" .
+<https://w3id.org/iddo#Encoding> <https://w3id.org/iddo#code> "PA038" .
+<https://w3id.org/iddo#Encoding> <https://w3id.org/iddo#code> "PA038"@de-DE .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2000/01/rdf-schema#comment> "The encoding is set according to Name of encoding standard of IANA, RFC 2978" .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2000/01/rdf-schema#label> "Encoding" .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#Encoding> <http://www.w3.org/2000/01/rdf-schema#label> "Kodierung"@de-DE .
+<https://w3id.org/iddo#hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Attaches a property to a feature of interest (FOI)" .
+<https://w3id.org/iddo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Fuegt ein Merkmal zu einem Feature of Interest (FOI) hinzu"@de-DE .
+<https://w3id.org/iddo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#label> "has property" .
+<https://w3id.org/iddo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#label> "hat Merkmal"@de-DE .
+<https://w3id.org/iddo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#hasProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#AssignedProperty> .
+_:Bb950ed8bacb8a7eb82e1638616a4588a <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bb950ed8bacb8a7eb82e1638616a4588a <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfRevision> .
+_:Bb950ed8bacb8a7eb82e1638616a4588a <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:Bb950ed8bacb8a7eb82e1638616a4588a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B58429611e10314def32fbcef18d59e5f <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B58429611e10314def32fbcef18d59e5f <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CategoryOfGroupOfProperties> .
+_:B58429611e10314def32fbcef18d59e5f <http://www.w3.org/2002/07/owl#onDataRange> _:B319a9ac31d6b47b20fe92f26ad3adad8 .
+_:B58429611e10314def32fbcef18d59e5f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2000/01/rdf-schema#label> "Defining values" .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2000/01/rdf-schema#comment> "In case of an array, this attribute provides the defining values when applicable, the datatype is given by the attribute PA030" .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2000/01/rdf-schema#label> "Definierende Werte"@de-DE .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#DefiningValuesList> .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA035" .
+<https://w3id.org/iddo#DefiningValues> <https://w3id.org/iddo#code> "PA035"@de-DE .
+<https://w3id.org/iddo#DefiningValues> <https://w3id.org/iddo#code> "PA035" .
+<https://w3id.org/iddo#DefiningValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Im Falle eines Feldes liefert dieses Attribut die definierenden Werte, sofern zutreffend, der Datentyp wird durch das Attribut PA030 angegeben"@de-DE .
+_:B59ad069dd70fb2b3b2815aa33c2bc4f7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B59ad069dd70fb2b3b2815aa33c2bc4f7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfCreation> .
+_:B59ad069dd70fb2b3b2815aa33c2bc4f7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B59ad069dd70fb2b3b2815aa33c2bc4f7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B6300e141X2D2a07X2D4c01X2Da60bX2D0bcd8d56377a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B86278582X2D7b21X2D493cX2D9102X2D69934c23e576 .
+_:B6300e141X2D2a07X2D4c01X2Da60bX2D0bcd8d56377a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Class" .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#label> "Subdivision of use" .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Dokumentierte geographische Region, in der das Merkmal/ die Merkmalsgruppe verwendet wird"@de-DE .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Documented geographical region of use of the group of properties" .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#label> "Unterteilung der Verwendung"@de-DE .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#SubdivisionOfUse> <https://w3id.org/iddo#code> "PA025/GA020"@de-DE .
+<https://w3id.org/iddo#SubdivisionOfUse> <https://w3id.org/iddo#code> "PA025/GA020" .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA025/GA020" .
+<https://w3id.org/iddo#SubdivisionOfUse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+_:Bde2ce2ddb93c97022b0eebcbdb2f4bfe <http://www.w3.org/2002/07/owl#oneOf> _:Bec73bf4bX2D7ca0X2D454dX2D8f7eX2Db03d21cd3c76 .
+_:Bde2ce2ddb93c97022b0eebcbdb2f4bfe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains a defining value of an array" .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2000/01/rdf-schema#label> "Defining value" .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#DefiningValuesList> .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#DefiningValueItem> .
+<https://w3id.org/iddo#DefiningValue> <https://w3id.org/iddo#code> "PA035" .
+<https://w3id.org/iddo#DefiningValue> <https://w3id.org/iddo#code> "PA035"@de-DE .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2000/01/rdf-schema#label> "Definierender Wert"@de-DE .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Enthaelt einen definierenden Wert eines Arrays"@de-DE .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA035" .
+<https://w3id.org/iddo#DefiningValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:B6941aef56caad7f45ed758c3230f1ab0 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#NameInLanguage> .
+_:B6941aef56caad7f45ed758c3230f1ab0 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B6941aef56caad7f45ed758c3230f1ab0 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B6941aef56caad7f45ed758c3230f1ab0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bbd169c32c370f564b13135ef20056587 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> .
+_:Bbd169c32c370f564b13135ef20056587 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#RelationOfPropertiyIdentifiersInTheInterconnectedDataDictionaries> .
+_:Bbd169c32c370f564b13135ef20056587 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bbd169c32c370f564b13135ef20056587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bdac2840c23dd0f25645e12f9c277e5ee <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bdac2840c23dd0f25645e12f9c277e5ee <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#GivenGroupsOfProperties> .
+_:Bdac2840c23dd0f25645e12f9c277e5ee <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#GroupOfProperties> .
+_:Bdac2840c23dd0f25645e12f9c277e5ee <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Baaa8d6a83e8903a6182a79c3edbc0274 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#hasPropertyReference> .
+_:Baaa8d6a83e8903a6182a79c3edbc0274 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Baaa8d6a83e8903a6182a79c3edbc0274 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B7a012099e9e0a4d97dd0097a428cf7ff .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B45ebd49a5cd73beecc12f5f49f34e220 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B7f1f220b8e516e572b2ed07f221df060 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0cba42267a85c39b709b72d3f331eb30 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bbba0fe368e44c35d9d9ea234babfa822 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B6cfa0353e8723be505df67ceeb418011 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bdad5dfa19768494c1e8931fced634e79 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B7d1e7f20f04b4ccb9eb1f2ca8a8f4605 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B2dc835a51f2b3016532b9f60eb034fdb .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#comment> "Inhaerente oder erworbene Eigenschaft eines Datenelements"@de-DE .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B1fd6bd07394407fcb10afcc4c76ee792 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb7c3fa6ac5a5bb5847a2e9dfe05c1031 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#label> "Property" .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B68179d506d42e1a3ce84eca4453b4288 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb239954f383e6b1e9d0db83198f8a712 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bbd169c32c370f564b13135ef20056587 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B6619808603c4772b5a8b4f23d167aaf1 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bc7bd3c25d96a76c91cc22d0f91c7a94e .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B6e7fb61230f267ad0ea2ca9bbc65db76 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bbb6c21145fa080f914d299465dd12b03 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B3a158a534efccd4437d46e7b79fe0ba7 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B368b897d15a93a9f5f0960bf74e0e2b1 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B41b1653e4f5a5687e2608c484c23e091 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B31b15cb9a6afdbad4b74c2dc5b4cdd67 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B2926e316ba28b2354788cdf0e6f9ca79 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#comment> "Inherent or acquired feature of an item" .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B472effb786f1fe6635728fd849701d28 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ba70a3940888bdce6b2318716c4770347 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bd063af91c8ad4d11f6e0e60b6a231ecd .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bbb5850768006c077e878a542c5cf9f75 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/opm#Property> .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bc33014579d8d7aea3aab6890b5c4a027 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bd4e201e0209079cd7ba816a0373b85ad .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0fcfe083b5e7e6f4c55ca546caabc24c .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B859c7107849755104a6c40a5bb491245 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B694575ffeefb46133d2a952ed65baf62 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B1eaae7dadc4aee7928535c5b1df7f59a .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B074f9a05a8b118b7e980d2e3570ec87e .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#label> "Merkmal"@de-DE .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B08407cbf4b56cd7f7c56ba4f08968aa3 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bf9e58b5de2cca6d4877583a7ad914547 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Be367e1e6dcd4d7d00b5c4ec742a09aeb .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ba50bdd2a04c57026c7ea3a6b31871ba5 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B59ad069dd70fb2b3b2815aa33c2bc4f7 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0069f8d384d9974d9030763a03de1356 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B55149125557c70636429858135f83893 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B4ba89111bb0462c05f21e54b408286fb .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb2a91626194c916473569ba0f331a405 .
+<https://w3id.org/iddo#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B1a4a97f69cfb552a19d2df2b03908ae5 .
+_:B39930f0e53e54f3fb3ecf92da2c560de <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B39930f0e53e54f3fb3ecf92da2c560de <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Status> .
+_:B39930f0e53e54f3fb3ecf92da2c560de <http://www.w3.org/2002/07/owl#onDataRange> _:B52baec3b139690c3e4691b20249ce30a .
+_:B39930f0e53e54f3fb3ecf92da2c560de <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B39930f0e53e54f3fb3ecf92da2c560de <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#Symbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#Symbol> <https://w3id.org/iddo#code> "PA022"@de-DE .
+<https://w3id.org/iddo#Symbol> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA022" .
+<https://w3id.org/iddo#Symbol> <https://w3id.org/iddo#code> "PA022" .
+<https://w3id.org/iddo#Symbol> <http://www.w3.org/2000/01/rdf-schema#label> "Symbol" .
+<https://w3id.org/iddo#Symbol> <http://www.w3.org/2000/01/rdf-schema#label> "Symbol"@de-DE .
+<https://w3id.org/iddo#Symbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#Symbol> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#Symbol> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#SymbolOfTheProperty> .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of version" .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Datum der Version"@de-DE .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum der Version"@de-DE .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Date of version" .
+<https://w3id.org/iddo#DateOfVersion> <https://w3id.org/iddo#code> "PA007/GA007" .
+<https://w3id.org/iddo#DateOfVersion> <https://w3id.org/iddo#code> "PA007/GA007"@de-DE .
+<https://w3id.org/iddo#DateOfVersion> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA007/GA007" .
+_:B2ff477ebX2D781dX2D417fX2Dacc7X2D328f5a855ddf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B611c1d22X2D5dc2X2D4a63X2Daf9fX2D1e8f678a30bf .
+_:B2ff477ebX2D781dX2D417fX2Dacc7X2D328f5a855ddf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Domain" .
+_:Bbb6c21145fa080f914d299465dd12b03 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DefiningValues> .
+_:Bbb6c21145fa080f914d299465dd12b03 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#DefiningValuesList> .
+_:Bbb6c21145fa080f914d299465dd12b03 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bbb6c21145fa080f914d299465dd12b03 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Liste ersetzender Merkmale"@de-DE .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA012" .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Globally unique identifier (attribute PA001) of the replacing property (or properties)" .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ListOfReplacingProperties> <https://w3id.org/iddo#code> "PA012"@de-DE .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "global eindeutiger Bezeichner (Attribut PA001) des ersetzenden Merkmals (oder der Merkmale)"@de-DE .
+<https://w3id.org/iddo#ListOfReplacingProperties> <https://w3id.org/iddo#code> "PA012" .
+<https://w3id.org/iddo#ListOfReplacingProperties> <http://www.w3.org/2000/01/rdf-schema#label> "List of replacing properties" .
+_:B037d467b45c9e1408ddef967105e91ce <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B037d467b45c9e1408ddef967105e91ce <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Unit> .
+_:B037d467b45c9e1408ddef967105e91ce <http://www.w3.org/2002/07/owl#onDataRange> <http://qudt.org/schema/qudt/Unit> .
+_:B037d467b45c9e1408ddef967105e91ce <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B1eaae7dadc4aee7928535c5b1df7f59a <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CreatorsLanguage> .
+_:B1eaae7dadc4aee7928535c5b1df7f59a <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B1eaae7dadc4aee7928535c5b1df7f59a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B15d96b3b83d70669aca5d24d0337f0a9 <https://schema.org/name> "Sven Zentgraf" .
+_:B15d96b3b83d70669aca5d24d0337f0a9 <https://schema.org/memberOf> _:B04faee6525910290c39605867849faf9 .
+_:B15d96b3b83d70669aca5d24d0337f0a9 <https://schema.org/identifier> <https://orcid.org/0000-0001-6058-7614> .
+_:B15d96b3b83d70669aca5d24d0337f0a9 <https://schema.org/email> <mailto:sven.zentgraf@rub.de> .
+_:B15d96b3b83d70669aca5d24d0337f0a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+_:Bb9cfde30X2D5666X2D4e5cX2Dbd84X2Dc6cde090132f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6300e141X2D2a07X2D4c01X2Da60bX2D0bcd8d56377a .
+_:Bb9cfde30X2D5666X2D4e5cX2Dbd84X2Dc6cde090132f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Alternative use" .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Parameter des dynamischen Merkmals"@de-DE .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Parameters of the dynamic property" .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "List of GUIDS of properties which are parameters of the function for a dynamic property" .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA032" .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von GUIDs von Merkmalen, welche Parameter der Funktion fuer ein dynamisches Merkmal sind"@de-DE .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <https://w3id.org/iddo#code> "GA032"@de-DE .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#ParametersOfTheDynamicProperty> <https://w3id.org/iddo#code> "PA032" .
+_:B4ba89111bb0462c05f21e54b408286fb <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CountryOfOrigin> .
+_:B4ba89111bb0462c05f21e54b408286fb <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B4ba89111bb0462c05f21e54b408286fb <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B4ba89111bb0462c05f21e54b408286fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#comment> "Date after when the property can be used" .
+<https://w3id.org/iddo#DateOfActivation> <https://w3id.org/iddo#code> "PA004/GA004"@de-DE .
+<https://w3id.org/iddo#DateOfActivation> <https://w3id.org/iddo#code> "PA004/GA004" .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA04/GA04" .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#label> "Date of activation" .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum, nach dem das Merkmal verwendet werden kann"@de-DE .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#label> "Datum der Aktivierung"@de-DE .
+<https://w3id.org/iddo#DateOfActivation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B1a4a97f69cfb552a19d2df2b03908ae5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#DateOfDeactivation> .
+_:B1a4a97f69cfb552a19d2df2b03908ae5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B1a4a97f69cfb552a19d2df2b03908ae5 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B1a4a97f69cfb552a19d2df2b03908ae5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar fuer den digitalen Texttyp (Praezision, Masseinheit)\r\nPraezision ist die Anzahl signifikanter Stellen"@de-DE .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA037" .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B037d467b45c9e1408ddef967105e91ce .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2000/01/rdf-schema#label> "Digital format item" .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://w3id.org/iddo#DigitalFormatItem> <https://w3id.org/iddo#code> "PA037" .
+<https://w3id.org/iddo#DigitalFormatItem> <https://w3id.org/iddo#code> "PA037"@de-DE .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair for digital text type (precision, unit)\r\nPrecision is the number of significant digits" .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B33fabf81c3011f82114ea822ace60165 .
+<https://w3id.org/iddo#DigitalFormatItem> <http://www.w3.org/2000/01/rdf-schema#label> "Digitales Format-Item"@de-DE .
+_:Becaab3e3da1defbe485603a846fe296d <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Becaab3e3da1defbe485603a846fe296d <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#CreatorsLanguage> .
+_:Becaab3e3da1defbe485603a846fe296d <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:Becaab3e3da1defbe485603a846fe296d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B6e7fb61230f267ad0ea2ca9bbc65db76 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#Tolerance> .
+_:B6e7fb61230f267ad0ea2ca9bbc65db76 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:B6e7fb61230f267ad0ea2ca9bbc65db76 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B6e7fb61230f267ad0ea2ca9bbc65db76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Bf9e58b5de2cca6d4877583a7ad914547 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bf9e58b5de2cca6d4877583a7ad914547 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#VersionNumber> .
+_:Bf9e58b5de2cca6d4877583a7ad914547 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:Bf9e58b5de2cca6d4877583a7ad914547 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Paar (Liste von Grenzwert-Intervallen moeglicher Werte fuer das Merkmal, Einheit)"@de-DE .
+<https://w3id.org/iddo#BoundaryValues> <https://w3id.org/iddo#code> "PA040" .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA040" .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#BoundaryValuesList> .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2000/01/rdf-schema#label> "Boundary values" .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2000/01/rdf-schema#label> "Grenzwerte"@de-DE .
+<https://w3id.org/iddo#BoundaryValues> <https://w3id.org/iddo#code> "PA040"@de-DE .
+<https://w3id.org/iddo#BoundaryValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Pair (list of boundary intervals of possible values for the property, unit)" .
+_:B0fcfe083b5e7e6f4c55ca546caabc24c <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#TextFormat> .
+_:B0fcfe083b5e7e6f4c55ca546caabc24c <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#TextFormatItem> .
+_:B0fcfe083b5e7e6f4c55ca546caabc24c <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B0fcfe083b5e7e6f4c55ca546caabc24c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#comment> "Datum der Validierung der An-frage zur Erstellung des Merkmals durch Sachverstaendige"@de-DE .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#label> "Date of creation" .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#label> "Datum der Erstellung"@de-DE .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA003/GA003" .
+<https://w3id.org/iddo#DateOfCreation> <https://w3id.org/iddo#code> "PA003/GA003"@de-DE .
+<https://w3id.org/iddo#DateOfCreation> <https://w3id.org/iddo#code> "PA003/GA003" .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#DateOfCreation> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of validation of the property creation request by experts" .
+_:Bcfc1301bd0c44744313c356d8607c589 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#ParentGroupOfProperties> .
+_:Bcfc1301bd0c44744313c356d8607c589 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#GroupOfProperties> .
+_:Bcfc1301bd0c44744313c356d8607c589 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bcfc1301bd0c44744313c356d8607c589 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Gegebene Merkmalsgruppe"@de-DE .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Globally unique identifier of a group of properties (attribute GA001) for the symbol assigned to the property." .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA022" .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Given group of properties" .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "Global eindeutiger Bezeichner einer Merkmalsgruppe(Attribut GA001) fuer das dem Merkmal zugeordnetem Symbol"@de-DE .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <https://w3id.org/iddo#code> "PA022"@de-DE .
+<https://w3id.org/iddo#GivenGroupsOfProperties> <https://w3id.org/iddo#code> "PA022" .
+_:B52baec3b139690c3e4691b20249ce30a <http://www.w3.org/2002/07/owl#oneOf> _:Bf84367acX2D033dX2D4dbaX2Db23fX2D5cfb34ee0650 .
+_:B52baec3b139690c3e4691b20249ce30a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:B7101ee5b41cbfdea644df273cfc96bd8 <http://www.w3.org/2002/07/owl#oneOf> _:B6d3f4604X2Db954X2D4e84X2D87c0X2Dfae47f76e95c .
+_:B7101ee5b41cbfdea644df273cfc96bd8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Beziehung der Merkmalsbezeichner in den miteinander verbundenen Datenka-talogen"@de-DE .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "PA014"@de-DE .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <https://w3id.org/iddo#code> "PA014" .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste von Paaren (interner Merk-malsbezeichner, entsprechender Datenkatalog-Bezeichner)\ndieses Attribut sollte fuer die Vertraeglichkeit zwischen bereits vorhandenen Merkmalen verwendet werden"@de-DE .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#comment> "List of pairs (property internal identifier, corresponding data dictionary identifier)\nThis attribute should be used for compatibility between already existing properties" .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA014" .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/iddo#RelationOfTheGroupOfPropertiesIdentifiersInTheInterconnectedDataDictionaries> .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#RelationsOfThePropertyIdentifiersInTheInterconnectedDataDictionaries> <http://www.w3.org/2000/01/rdf-schema#label> "Relations of the property identifiers in the interconnected data dictionaries" .
+_:B0b2af261X2D3d69X2D4b3aX2DbfdaX2D515bfa1b110f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B9e2d04d5X2D7da1X2D41cdX2D9306X2Dd1ae94bcb57e .
+_:B0b2af261X2D3d69X2D4b3aX2DbfdaX2D515bfa1b110f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Composed property" .
+_:Bc7bd3c25d96a76c91cc22d0f91c7a94e <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Bc7bd3c25d96a76c91cc22d0f91c7a94e <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#RevisionNumber> .
+_:Bc7bd3c25d96a76c91cc22d0f91c7a94e <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:Bc7bd3c25d96a76c91cc22d0f91c7a94e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/iddo#CreatorsLanguage> <https://w3id.org/iddo#code> "PA015/GA015" .
+<https://w3id.org/iddo#CreatorsLanguage> <https://w3id.org/iddo#code> "PA015/GA015"@de-DE .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Erlaeuterung fuer die Ablehnung"@de-DE .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA015/GA015" .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Sentence explaining the reason of the deprecation, which can explain how to convert values to conform to the new property; this explanation has to be written in international English (EN)" .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Satz, der den Grund fuer die Ab-lehnung erlaeutert, der erklaeren kann, wie Werte umzurechnen sind, damit sie dem neuen Merkmal entsprechen; diese Er-laeuterung muss in internatio-nalem Englisch (EN) geschrieben werden"@de-DE .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#CreatorsLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "Creator's language" .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2000/01/rdf-schema#label> "Messverfahren"@de-DE .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2000/01/rdf-schema#comment> "Evaluation of construction products to ensure their fitness according to requirements in harmonised technical specifications" .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2000/01/rdf-schema#comment> "Beurteilung von Bauprodukten, um ihre Tauglichkeit entsprechend den Anforderungen in harmonisierten technischen Spezifikationen sicherzustellen" .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA029" .
+<https://w3id.org/iddo#MethodOfMeasurement> <https://w3id.org/iddo#code> "PA029"@de-DE .
+<https://w3id.org/iddo#MethodOfMeasurement> <https://w3id.org/iddo#code> "PA029" .
+<https://w3id.org/iddo#MethodOfMeasurement> <http://www.w3.org/2000/01/rdf-schema#label> "Method of measurement" .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#comment> "Satz, der den Grund fuer die Ablehnung erlaeutert, der erklaeren kann, wie Werte umzurechnen sind, damit sie dem neuen Merkmal/der neuen Merkmalsgruppe entsprechen; diese Erlaeuterung muss in internationalem Englisch (EN) geschrieben werden"@de-DE .
+<https://w3id.org/iddo#DeprecationExplanation> <https://w3id.org/iddo#code> "PA013/GA013" .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#label> "Deprecation explanation" .
+<https://w3id.org/iddo#DeprecationExplanation> <https://w3id.org/iddo#code> "PA013/GA013"@de-DE .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#label> "Erlaeuterung fuer die Ablehnung"@de-DE .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2004/02/skos/core#scopeNote> "PA013/GA013" .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#GroupOfProperties> .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#comment> "Sentence explaining the reason of the deprecation, which can explain how to convert values to conform to the new property/group of properties; this explanation has to be written in international English (EN)" .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/iddo#DeprecationExplanation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/iddo#Property> .
+_:Bb1a4a304X2Db665X2D4050X2D9f11X2D85abcb801060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B0b2af261X2D3d69X2D4b3aX2DbfdaX2D515bfa1b110f .
+_:Bb1a4a304X2Db665X2D4050X2D9f11X2D85abcb801060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Class" .
+_:B41b1653e4f5a5687e2608c484c23e091 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#SubdivisionOfUse> .
+_:B41b1653e4f5a5687e2608c484c23e091 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:B41b1653e4f5a5687e2608c484c23e091 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B41b1653e4f5a5687e2608c484c23e091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:B86278582X2D7b21X2D493cX2D9102X2D69934c23e576 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B2ff477ebX2D781dX2D417fX2Dacc7X2D328f5a855ddf .
+_:B86278582X2D7b21X2D493cX2D9102X2D69934c23e576 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Composed property" .
+_:B6cfa0353e8723be505df67ceeb418011 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:B6cfa0353e8723be505df67ceeb418011 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/iddo#BoundaryValues> .
+_:B6cfa0353e8723be505df67ceeb418011 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/iddo#BoundaryValuesList> .
+_:B6cfa0353e8723be505df67ceeb418011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
