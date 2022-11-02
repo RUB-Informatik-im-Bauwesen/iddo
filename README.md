@@ -46,9 +46,9 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.4
 **Figure 1:** Ontology overview
 
 ## Assigning an IDDO Property to a Feature of Interest
-![Property_Assignment](Property_Assignment.png "Property_Assignment")
+![Property_Assignment](Property_Assignment.png "Property_Assignment")  
 **Figure 2:** Property Assignment
 
 ## Relation between DCAT vocabulary and the IDDO ontology
-![DataCatalog_Overview](DataCatalog_Overview.png "DataCatalog_Overview")
+![DataCatalog_Overview](DataCatalog_Overview.png "DataCatalog_Overview")  
 **Figure 3:** Relation between DCAT vocabulary and the IDDO ontology
